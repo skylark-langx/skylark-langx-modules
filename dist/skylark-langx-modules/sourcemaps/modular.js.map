@@ -1,0 +1,1 @@
+{"version":3,"sources":["modular.js"],"names":["define","skylark","attach","plugins"],"mappings":";;;;;;;AAAAA,QACC,oBACC,SAASC,GACV,OAAOA,EAAQC,OAAO,iBACrBC","file":"../modular.js","sourcesContent":["define([\r\n\t\"skylark-langx-ns\"\r\n],function(skylark){\r\n\treturn skylark.attach(\"langx.modular\",{\r\n\t\tplugins : {\r\n\t\t\t\r\n\t\t}\r\n\t})\r\n});"]}

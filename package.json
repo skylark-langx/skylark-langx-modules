@@ -1,0 +1,34 @@
+{
+  "name": "skylark-langx-modules",
+  "version": "0.9.0",
+  "description": "The skylark JavaScript language extension library.",
+  "main": "./index",
+  "scripts": {
+    "build": "slib build ."
+  },
+  "homepage": "www.skylarkjs.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skylarklangx/skylark-langx-modules.git"
+  },
+  "keywords": [
+    "skylark",
+    "skylarkjs",
+    "javacript",
+    "language extension"
+  ],
+  "author": "Hudaokeji Co.,Ltd",
+  "license": "MIT",
+  "bugs": "https://github.com/skylarklangx/skylark-langx/issues",
+  "exports": {
+    "./": "./dist/uncompressed/skylark-langx-modules/"
+  },
+  "dependencies": {
+    "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git#master",
+    "skylark-langx-objects": "git+https://github.com/skylark-langx/skylark-langx-objects.git#master",
+    "skylark-langx-types": "git+https://github.com/skylark-langx/skylark-langx-types.git#master"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  }
+}
