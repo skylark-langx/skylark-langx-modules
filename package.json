@@ -23,10 +23,14 @@
   "exports": {
     "./": "./dist/uncompressed/skylark-langx-modules/"
   },
+  "exports": {
+    ".": "./dist/uncompressed/skylark-langx-modules/main.js",
+    "./*": "./dist/uncompressed/skylark-langx-modules/*.js"
+  },
   "dependencies": {
-    "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git#master",
-    "skylark-langx-objects": "git+https://github.com/skylark-langx/skylark-langx-objects.git#master",
-    "skylark-langx-types": "git+https://github.com/skylark-langx/skylark-langx-types.git#master"
+    "skylark-langx-ns": "git+https://github.com/skylark-langx/skylark-langx-ns.git",
+    "skylark-langx-objects": "git+https://github.com/skylark-langx/skylark-langx-objects.git",
+    "skylark-langx-types": "git+https://github.com/skylark-langx/skylark-langx-types.git"
   },
   "engines": {
     "node": ">=0.8.0"
